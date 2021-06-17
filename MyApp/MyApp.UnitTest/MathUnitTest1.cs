@@ -21,7 +21,8 @@ namespace MyApp.UnitTest
 
             //Assert
 
-            Assert.IsTrue(vm.Result == 11, "vm.Result != 10 !");
+            if (vm.Result != 10)
+                Assert.Fail();
 
         }
 
@@ -40,7 +41,8 @@ namespace MyApp.UnitTest
 
             //Assert
 
-            Assert.IsTrue(vm.Result == 16, "vm.Result != 16 !");
+            if (vm.Result != 16)
+                Assert.Fail();
 
         }
     }
