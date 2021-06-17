@@ -1,0 +1,13 @@
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\bin\Debug\netstandard2.0\MyApp.deps.json
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\bin\Debug\netstandard2.0\MyApp.dll
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\bin\Debug\netstandard2.0\ref\MyApp.dll
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\bin\Debug\netstandard2.0\MyApp.pdb
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\MyApp.AssemblyInfoInputs.cache
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\MyApp.AssemblyInfo.cs
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\MyApp.dll
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\ref\MyApp.dll
+C:\Users\youcode\source\repos\sana-ben036\UniTest_Calculator\MyApp\MyApp\MyApp\obj\Debug\netstandard2.0\MyApp.pdb
