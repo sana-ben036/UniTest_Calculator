@@ -24,5 +24,24 @@ namespace MyApp.UnitTest
             Assert.IsTrue(vm.Result == 9, "vm.Result != 10 !");
 
         }
+
+        [TestMethod]
+        public void MultiplyTest()
+        {
+            // Arrange
+
+            var vm = new MathViewModel();
+            vm.ValueA = 4;
+            vm.ValueB = 4;
+
+            //Act
+
+            vm.AddCommand.Execute(null);
+
+            //Assert
+
+            Assert.IsTrue(vm.Result == 16, "vm.Result != 16 !");
+
+        }
     }
 }
