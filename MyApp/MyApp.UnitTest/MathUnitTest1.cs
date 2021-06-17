@@ -21,7 +21,7 @@ namespace MyApp.UnitTest
 
             //Assert
 
-            Assert.IsTrue(vm.Result == 9, "vm.Result != 10 !");
+            Assert.IsTrue(vm.Result == 11, "vm.Result != 10 !");
 
         }
 
@@ -36,7 +36,7 @@ namespace MyApp.UnitTest
 
             //Act
 
-            vm.AddCommand.Execute(null);
+            vm.MultiplyCommand.Execute(null);
 
             //Assert
 
