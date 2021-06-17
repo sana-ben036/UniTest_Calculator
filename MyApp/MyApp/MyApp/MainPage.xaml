@@ -11,15 +11,21 @@
 
     <StackLayout Orientation="Vertical">
 
-        <Label Text="Calculator2" TextColor="Blue" FontSize="40"/>
+        <Label Text="Calculator2"  BackgroundColor="Black" TextColor="White" FontSize="30"/>
 
         <Entry FontSize="40" Text="{Binding ValueA}"/>
 
         <Entry FontSize="40" Text="{Binding ValueB}"/>
 
-        <Button Text="Add" TextColor="White" BackgroundColor="Olive" Command="{Binding AddCommand}" />
+        <Button Text="+" TextColor="White" BackgroundColor="GreenYellow" FontSize="40" Command="{Binding AddCommand}" />
 
-        <Button Text="Multiply" TextColor="White" BackgroundColor="Fuchsia" Command="{Binding MultiplyCommand}" />
+        <Button Text="-" TextColor="White" BackgroundColor="Orange" FontSize="40" Command="{Binding SubstCommand}" />
+
+        <Button Text="*" TextColor="White" BackgroundColor="Fuchsia" FontSize="40" Command="{Binding MultiplyCommand}" />
+
+        <Button Text="/" TextColor="White" BackgroundColor="#BlueViolet" FontSize="40" Command="{Binding DivisCommand}" />
+
+        
 
         <Label Text="{Binding Result}" TextColor="Blue" FontSize="40"/>
     </StackLayout>

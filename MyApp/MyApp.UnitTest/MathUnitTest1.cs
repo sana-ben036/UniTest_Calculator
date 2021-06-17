@@ -45,5 +45,43 @@ namespace MyApp.UnitTest
                 Assert.Fail();
 
         }
+
+        [TestMethod]
+        public void SubstTest()
+        {
+            // Arrange
+
+            var vm = new MathViewModel();
+            vm.ValueA = 4;
+            vm.ValueB = 6;
+
+            //Act
+
+            vm.SubstCommand.Execute(null);
+
+            //Assert
+
+                Assert.IsTrue(vm.Result == -2);
+
+        }
+
+        [TestMethod]
+        public void DivisTest()
+        {
+            // Arrange
+
+            var vm = new MathViewModel();
+            vm.ValueA = 10;
+            vm.ValueB = 2;
+
+            //Act
+
+            vm.DivisCommand.Execute(null);
+
+            //Assert
+
+            Assert.IsFalse(vm.Result != 5);
+
+        }
     }
 }

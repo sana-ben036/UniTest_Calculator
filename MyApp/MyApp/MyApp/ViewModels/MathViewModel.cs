@@ -68,6 +68,29 @@ namespace MyApp.ViewModels
 
         }
 
+        public ICommand SubstCommand
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Result = _valueA - _valueB;
+                });
+            }
+
+        }
+
+        public ICommand DivisCommand
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    Result = _valueA / _valueB;
+                });
+            }
+
+        }
         public event PropertyChangedEventHandler PropertyChanged;
 
 
